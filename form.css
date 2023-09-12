@@ -1,0 +1,85 @@
+.login_form{
+   background-color: rgba(193, 208, 233, 0.953);
+   border-radius: 10px;
+}
+   
+/* .form-group{
+    text-align: left;
+} */
+
+body {
+    background-color: #9bb38f;
+    font-family: Verdana;
+    text-align: center;
+    background-image: url(https://www.icegif.com/wp-content/uploads/icegif-5679.gif);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center center;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: left;
+    padding: 40px;
+    width: 60%;
+}
+
+#header1{
+    margin-top: -10px;
+    color: rgb(191, 60, 40);
+    text-align: center;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+ 
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(223, 104, 44);
+}
+
+.form-group input{
+    height: 2rem;
+    border-radius: 5px;
+    border: 4px dotted #58e5779e;
+    width: 100%;
+}
+ 
+button {
+    background-color: #e7df95;
+    border: 4px dotted #1ecc448f;
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    width: 100%;   
+    color: rgb(223, 104, 44);
+    font-family: 'Sofia', cursive;
+    
+}
+
+
+
+
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+
+#email_error{
+    color: rgba(205, 85, 85, 0.777);
+    font-weight: bold;
+}
+
+#password_error{
+    color: rgba(205, 85, 85, 0.797);
+    font-weight: bold;
+}

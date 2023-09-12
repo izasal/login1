@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link rel="icon" type="image" href="https://cdn-icons-png.flaticon.com/128/346/346167.png">
+</head>
+<body>
+    
+    <div class="container">
+        
+
+        <form class="login_form" method="get" name="form" onsubmit="return validated()">
+            <h2 id="header1">User Login</h2>
+            <br>
+            <div class="form-group">
+                <div class="font" style="color: rgb(143, 103, 212);">
+                    <b>Email or Phone</b>
+                </div>
+                <input autocomplete="off" type="email" name="email" required>
+                <div id="email_error">Please fill up your email or Phone</div>
+                <br><br>
+                <div class="font font2" style="color: rgb(143, 103, 212);">
+                   <b>Password</b>
+                </div>
+                <input type="password" name="password" placeholder=""  autocomplete="off"  required>
+                <div id="password_error">Please fill up your Password</div>
+                <br><br>
+                <button type="submit"><b>Login</b></button>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
